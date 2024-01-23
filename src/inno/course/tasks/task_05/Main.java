@@ -16,9 +16,9 @@ public class Main {
         operationsWithMovie.addFilm(films);
 
         for (Movie filmsItem : films) {
-            System.out.println(filmsItem.isThereAnOscar); // в 3 задании не задавали поле год, поэтому выведу наличие Оскара
-            System.out.println(filmsItem.title);
-            System.out.println(filmsItem.genre);
+            System.out.print(filmsItem.isThereAnOscar + " "); // в 3 задании не задавали поле год, поэтому выведу наличие Оскара
+            System.out.print(filmsItem.title + " ");
+            System.out.print(filmsItem.genre + " ");
             System.out.println(filmsItem.rating);
         }
     }
